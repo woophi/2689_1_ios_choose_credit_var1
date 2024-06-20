@@ -152,8 +152,7 @@ export const App = () => {
     }).then(() => {
       setLoading(false);
 
-      (window.location as unknown as string) =
-        'alfabank:///webFeature?type=recommendation&url=https%3A%2F%2Falfa.me%2F9MvYNB';
+      (window.location as unknown as string) = 'https://alfa.me/9MvYNB';
     });
   };
 
